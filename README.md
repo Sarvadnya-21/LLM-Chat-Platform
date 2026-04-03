@@ -119,13 +119,5 @@ If you don’t have Ollama, set `USE_MOCK_RESPONSE=true` and the backend will re
 - Guest chat limit uses `GUEST_LIMIT_TTL_SECONDS` for per-ip key scope.
 - `FRONTEND_ORIGIN='*'` allows all origins (dev only).
 
-## 🛠️ Deployment checklist
-
-- set environment variables in production
-- enable HTTPS for client + API
-- configure persistent Redis + PostgreSQL
-- secure `JWT_SECRET`
-- disable `USE_MOCK_RESPONSE`
-
 ---
 
